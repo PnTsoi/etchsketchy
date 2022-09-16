@@ -9,10 +9,11 @@
 
 .board {
     background-color: white;
+    display: grid;
+    grid-template-columns: repeat(15, 6.25fr);
+    grid-template-rows: repeat(15, 6.25fr);
     grid-column: 2/4;
     grid-row: 1/5;
+    border-style: solid;
     border-width: 1px;
-}
-.body {
-    background-color: black;
 }
